@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick Seat</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        .btn {
+            background-color: red;
+            height: 40px;
+            width: 200px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .seat-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .seat {
+            text-align: center;
+        }
+
+        .seat input[type="checkbox"] {
+            appearance: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            border: 2px solid #ff0000;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .seat input[type="checkbox"]:checked {
+            background-color: #070e16;
+            border-color: #d52727;
+        }
+
+        .seat input[type="checkbox"]:hover {
+            border-color: #212223;
+            box-shadow: 0 0 10px rgba(243, 88, 88, 0.3);
+        }
+
+        .screen {
+            width: 250px;
+            color: wheat;
+            background-color: rgb(246, 5, 5);
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="shadow-lg p-3 mb-5 bg-body rounded" style="width: 60%; margin-top: 7%;">
+
+            <div class="screen">Screen</div>
+
+            <!-- Row 1 -->
+            <div class="seat-row">
+                <div class="seat">
+                    <input type="checkbox" id="seat1">
+                    <label for="seat1">1</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat2">
+                    <label for="seat2">2</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat3">
+                    <label for="seat3">3</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat4">
+                    <label for="seat4">4</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat5">
+                    <label for="seat5">5</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat6">
+                    <label for="seat6">6</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat7">
+                    <label for="seat7">7</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat8">
+                    <label for="seat8">8</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat9">
+                    <label for="seat9">9</label>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="seat-row">
+                <div class="seat">
+                    <input type="checkbox" id="seat10">
+                    <label for="seat10">10</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat11">
+                    <label for="seat11">11</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat12">
+                    <label for="seat12">12</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat13">
+                    <label for="seat13">13</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat14">
+                    <label for="seat14">14</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat15">
+                    <label for="seat15">15</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat16">
+                    <label for="seat16">16</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat17">
+                    <label for="seat17">17</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat18">
+                    <label for="seat18">18</label>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="seat-row">
+                <div class="seat">
+                    <input type="checkbox" id="seat19">
+                    <label for="seat19">19</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat20">
+                    <label for="seat20">20</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat21">
+                    <label for="seat21">21</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat22">
+                    <label for="seat22">22</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat23">
+                    <label for="seat23">23</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat24">
+                    <label for="seat24">24</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat25">
+                    <label for="seat25">25</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat26">
+                    <label for="seat26">26</label>
+                </div>
+                <div class="seat">
+                    <input type="checkbox" id="seat27">
+                    <label for="seat27">27</label>
+                </div>
+            </div>
+
+            <a style="margin-top: 20px;" href="pay.html" class="btn btn">Confirm Seat</a>
+        </div>
+    </center>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
