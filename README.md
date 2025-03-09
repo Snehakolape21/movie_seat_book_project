@@ -14,6 +14,9 @@ A simple web-based movie ticket booking system that allows users to select a mov
 🔹 Interactivity: JavaScript (for seat selection & validation)
 
 Screenshot
-
+Home Page
 ![Image](https://github.com/user-attachments/assets/94dbac92-b409-438c-a515-7e8692c3f347)
+
+
+![Image](https://github.com/user-attachments/assets/8433d2c1-da3f-4c19-a2ed-5868b709921d)
 
