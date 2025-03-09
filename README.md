@@ -12,3 +12,9 @@ A simple web-based movie ticket booking system that allows users to select a mov
 🔹 Frontend: HTML, CSS, Bootstrap
 🔹 Responsive Design: Bootstrap grid system
 🔹 Interactivity: JavaScript (for seat selection & validation)
+
+Screenshot
+
+![Image](https://github.com/user-attachments/assets/94dbac92-b409-438c-a515-7e8692c3f347)
+
+](url)
